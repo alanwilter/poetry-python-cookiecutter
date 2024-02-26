@@ -41,7 +41,7 @@ This is a [`cookiecutter`](https://cookiecutter.readthedocs.io) template that ut
    Alternatively, you can use `cruft`, which is a layer above `cookiecutter`. This allows you to manage your project from the template after it has been generated, enabling you to check, diff, or update it:
 
    ```bash
-   cruft https://github.com/alanwilter/poetry-python-cookiecutter
+   cruft create https://github.com/alanwilter/poetry-python-cookiecutter
    ```
 
    The command line interface will ask you to provide several informations.
