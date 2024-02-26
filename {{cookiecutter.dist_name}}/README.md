@@ -34,7 +34,7 @@ This Project depends on the [`poetry`](https://python-poetry.org/).
 
 2. Don't forget to use the python environment you set before and, if using `VScode`, apply it there.
 
-3. It's optional, but we strongly recommend [`commitizen`](https://github.com/commitizen-tools/commitizen)
+3. It's optional, but we strongly recommend [`commitizen`](https://github.com/commitizen-tools/commitizen), which follows [Conventional Commits](https://www.conventionalcommits.org/)
 
 ### Installation
 
