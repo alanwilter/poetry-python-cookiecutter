@@ -20,7 +20,7 @@ To run this project locally, you will need to install the prerequisites and foll
 
 This Project depends on the [`poetry`](https://python-poetry.org/).
 
-1. Install poetry, via `homebrew` or `pipx`:
+1. Install poetry, via `homebrew` or [`pipx`](https://github.com/pypa/pipx):
 
    ```bash
    brew install poetry
