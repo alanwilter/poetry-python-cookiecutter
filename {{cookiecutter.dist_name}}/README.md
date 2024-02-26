@@ -23,8 +23,12 @@ This Project depends on the [`poetry`](https://python-poetry.org/).
 1. Install poetry, via `homebrew` or `pipx`:
 
    ```bash
-   homebrew install poetry
-   # or
+   brew install poetry
+   ```
+
+   or
+
+   ```bash
    pipx install poetry
    ```
 

@@ -16,7 +16,11 @@ This is a [`cookiecutter`](https://cookiecutter.readthedocs.io) template that ut
 
    ```bash
    brew install poetry
-   # or
+   ```
+
+   or
+
+   ```bash
    pipx install poetry
    ```
 
@@ -32,9 +36,11 @@ This is a [`cookiecutter`](https://cookiecutter.readthedocs.io) template that ut
 
    ```bash
    cookiecutter https://github.com/alanwilter/poetry-python-cookiecutter
+   ```
 
-   # or
+   or
 
+   ```bash
    cookiecutter gh:/alanwilter/poetry-python-cookiecutter
    ```
 
