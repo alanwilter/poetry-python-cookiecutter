@@ -1,0 +1,18 @@
+{
+  "author_name": "Alan Silva",
+  "author_email": "3899850+alanwilter@users.noreply.github.com",
+  "github_username": "alanwilter",
+  "project_name": "Python Project Example",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "dist_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_description": "Python template with poetry, ruff and pre-commit to quickstart any Python project",
+  "python_version": "3.11",
+  "version": "0.0.1",
+  "license": [
+    "MIT",
+    "BSD_3_Clause",
+    "Apache_2.0",
+    "GPL_3.0",
+    "Proprietary"
+  ]
+}
