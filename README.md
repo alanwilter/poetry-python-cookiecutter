@@ -12,7 +12,7 @@ This is a [`cookiecutter`](https://cookiecutter.readthedocs.io) template that ut
 
 ## How to Use
 
-1. Install poetry, via `homebrew` or `pipx`:
+1. Install poetry, via `homebrew` or [`pipx`](https://github.com/pypa/pipx):
 
    ```bash
    brew install poetry
