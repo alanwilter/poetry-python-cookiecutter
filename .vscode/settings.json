@@ -40,5 +40,5 @@
     },
     "editor.formatOnType": true
   },
-  "conventionalCommits.scopes": ["readme"]
+  "conventionalCommits.scopes": ["readme", "lint"]
 }
