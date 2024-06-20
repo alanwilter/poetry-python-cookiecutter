@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -26,18 +26,18 @@ repos:
       - id: check-merge-conflict
       - id: check-docstring-first
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.2.2
+    rev: v0.4.9
     hooks:
       - id: ruff
         args: ["--fix"]
         files: ^hooks
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.2.2
+    rev: v0.4.9
     hooks:
       - id: ruff-format
         files: ^hooks
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.16.0
+    rev: v3.27.0
     hooks:
       - id: commitizen
         stages:
@@ -50,18 +50,32 @@ repos:
           - prettier
   # not for {{cookiecutter.project_slug}}
   # - repo: https://github.com/pre-commit/mirrors-mypy
-  #   rev: v1.8.0
+  #   rev: v1.10.0
   #   hooks:
   #     - id: mypy
+  #       # exclude: ^tests/
   #       args:
-  #         - "--strict"
-  #         - "--disable-error-code"
-  #         - type-arg
-  #         - "--disable-error-code"
-  #         - import-untyped
-  #         - "--disable-error-code"
-  #         - import-not-found
-  #         - "--disable-error-code"
-  #         - misc
-  #         - "--disable-error-code"
-  #         - unused-ignore
+  #         [
+  #           --strict,
+  #           "--disable-error-code",
+  #           "type-arg",
+  #           "--disable-error-code",
+  #           "import-untyped",
+  #           "--disable-error-code",
+  #           "import-not-found",
+  #           "--disable-error-code",
+  #           "misc",
+  #           "--disable-error-code",
+  #           "unused-ignore",
+  #         ]
+  - repo: https://github.com/thoughtworks/talisman
+    rev: "v1.32.0" # Update me!
+    hooks:
+      # both pre-commit and pre-push supported
+      # -   id: talisman-push
+      - id: talisman-commit
+        entry: cmd --githook pre-commit
+  # - repo: https://github.com/gitleaks/gitleaks
+  #   rev: v8.18.4
+  #   hooks:
+  #     - id: gitleaks
